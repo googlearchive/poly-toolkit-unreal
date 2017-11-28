@@ -1,0 +1,24 @@
+name: "tinygltfloader"
+description:
+    "Tiny glTF loader is a header only C++ glTF 1.x parsing library"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://github.com/syoyo/tinygltfloader"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/syoyo/tinygltfloader"
+  }
+  version: "9aeecca51a30f171ae97cce4db13942a599444ed"
+  last_upgrade_date { year: 2017 month: 10 day: 20 }
+  license_type: NOTICE
+  local_modifications:
+    "Generated LICENSE file based on file header"
+    "Removed unneeded deps/, examples/, images/, tools/windows/  directories."
+    "Removed unneeded .clang-format, .travis.yml, Makefile, appveyor.yml, box.gltf, loader_example.cc, premake4.lua, test_runner.py, vcsetup.bat, stb_image.h files."
+    "Disabled exceptions."
+    "Dissabled locale usage."
+}
+

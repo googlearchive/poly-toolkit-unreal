@@ -1,0 +1,24 @@
+name: "gltf2-loader"
+description:
+    "glTF2-loader is a C++14 glTF (2.0 only) parsing library"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://github.com/Lugdunum3D/glTF2-loader"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/Lugdunum3D/glTF2-loader"
+  }
+  version: "fae3205a2a53fbda2270cee34478087065e46079"
+  last_upgrade_date { year: 2017 month: 10 day: 20 }
+  license_type: NOTICE
+  local_modifications:
+    "Removed unneeded doc/, test/ directories."
+    "Removed unneeded .editorconfig, .gitignore, CMakeLists.txt files"
+    "Disabled exceptions."
+    "Implemented std::stoi, std::strtof, str::strtoud so it builds in Android."
+    "Disabled locale usage."
+}
+

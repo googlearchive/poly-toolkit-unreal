@@ -1,0 +1,23 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Poly Toolkit",
+	"Description" : "Plugin to access Poly database and load models at runtime",
+	"Category" : "Virtual Reality",
+	"CreatedBy" : "Google",
+	"CreatedByURL" : "https://poly.google.com",
+	"DocsURL" : "",
+	"EnabledByDefault" : false,
+	"EngineVersion" : "4.18.0",
+	"CanContainContent" : true,
+	"Installed" : true,
+	"Modules" :
+	[
+		{
+			"Name" : "PolyToolkit",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
