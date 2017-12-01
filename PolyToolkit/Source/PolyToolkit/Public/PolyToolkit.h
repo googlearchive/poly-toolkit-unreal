@@ -72,7 +72,8 @@ public:
 	static void ListAssets(const FString& ApiKey, const FString& Keywords, bool Curated, EPolyCategory Category, EPolyComplexity MaxComplexity, EPolyFormat Format, int32 PageSize, EPolyOrder OrderBy, const FString& PageToken, const FOnListAssetsComplete& OnListAssetsCallback);
 
 	/**
-	 * Imports an Asset at runtime.
+	 * Imports an Asset at runtime. This method does not support assets that
+         * are created with Tilt Brush.
 	 *
 	 * @param Asset	The Asset to be loaded. This should be returned by GetAsset or ListAssets.
 	 * @param OnImportCompleteCallback	A callback to be executed after loading the model.
