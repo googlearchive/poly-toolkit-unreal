@@ -1,3 +1,5 @@
+This project is no longer being actively developed or maintained. We recommend directly utilizing the [Poly API](https://developers.google.com/poly/develop/api) to access Poly assets from Unreal, and using the existing Unreal support for loading Poly compatible asset formats.
+
 # Poly Toolkit for Unreal
 
 Copyright (c) 2017 Google Inc. All rights reserved.
